@@ -109,19 +109,15 @@ body,html {
 #skills {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
-    float:left;
+   
 }
 #projects {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
-    float: left;
+  
     
 }
-#Together{
-    content:"";
-    display: table;
-    clear:both;
-}
+
 #contact {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
