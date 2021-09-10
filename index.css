@@ -111,6 +111,13 @@ body,html {
     padding:2vh 0px !important;
    
 }
+.row{
+    clear: both;
+}
+.column{
+    width: 50%;
+    float:left;
+}
 #projects {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
