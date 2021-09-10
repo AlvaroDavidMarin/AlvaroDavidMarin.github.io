@@ -111,10 +111,10 @@ body,html {
     padding:2vh 0px !important;
    
 }
-.row{
+#row{
     clear: both;
 }
-.column{
+#column{
     width: 50%;
     float:left;
 }
