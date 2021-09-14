@@ -111,13 +111,17 @@ body,html {
     padding:2vh 0px !important;
    
 }
-#row{
+.column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
     clear: both;
-}
-#column{
-    width: 50%;
-    float:left;
-}
+  }
 #projects {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
