@@ -104,24 +104,19 @@ body,html {
     animation: Gradient 20s ease infinite;
     font-family: 'Comfortaa', cursive;
 }
-.column {
-    float: left;
-    width: 25%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
 
 #skills {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
    
 }
-
+th{
+    font-size: 30px;
+}
+th,td{
+    padding:20px;
+}
 #projects {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
