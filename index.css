@@ -114,13 +114,13 @@ body,html {
 
 th{
     font-size: 30px;
+    padding-right: 10px;
     
 }
-th,td,table{
-    border-radius: 0%;
-    margin:0%;   
-
+td{
+    padding-right:10px;
 }
+
 #projects {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
