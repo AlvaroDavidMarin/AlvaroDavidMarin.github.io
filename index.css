@@ -111,23 +111,6 @@ body,html {
     padding:2vh 0px !important;
    
 }
-.columns {
-    Width: 100%;
-    }
-    .column {
-      width:100%;
-    }
-    @media (min-width: 48em) {
-      .column {
-        width: 50%;
-        float:left;
-      }
-      .columns {
-        content: "";
-        display: table;
-        clear: both;
-      }
-    }
 
 th{
     font-size: 30px;
