@@ -16,9 +16,9 @@ if (isset($_POST['Email'])) {
 
     // validation expected data exists
     if (
-        !isset($_POST['Name']) ||
-        !isset($_POST['Email']) ||
-        !isset($_POST['Message'])
+        !isset($_POST['name']) ||
+        !isset($_POST['email']) ||
+        !isset($_POST['text'])
     ) {
         problem('We're sorry, but there appears to be a problem with the form you submitted.');
     }
